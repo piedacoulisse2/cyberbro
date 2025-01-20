@@ -1,5 +1,5 @@
 # Use the official Python image from the Docker Hub, version 3.13-slim
-FROM python:3.13-slim
+FROM python:3.13
 
 # Update the package list and install Supervisor - git -nano, then clean up the apt cache
 RUN apt-get update && \
